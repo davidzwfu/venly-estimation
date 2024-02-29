@@ -1,0 +1,24 @@
+{
+  "name": "planning-poker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "heroku": "git add . & git commit -m 'a' & git push heroku master & heroku logs --tail",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "express": "^4.18.2",
+    "next": "13.4.10",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1",
+    "typescript": "5.1.6"
+  }
+}
